@@ -1,12 +1,83 @@
-# React + Vite
+🎬 React Movie Search Demo
+🚀 Project Overview
+A sleek React web app to search movies, view details, and manage favorites. Powered by TMDB API and Appwrite backend, showcasing a modern full-stack approach with secure authentication and real-time updates.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+🔍 Search movies by title from TMDB’s huge database
 
-Currently, two official plugins are available:
+🎥 View detailed movie info: synopsis, ratings, genres, release dates
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔐 User authentication with secure JWT via Appwrite
 
-## Expanding the ESLint configuration
+❤️ Add/remove movies to your favorites list
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📱 Responsive design for desktop & mobile
+
+⚡ Real-time favorite list updates
+
+🎨 Clean, modern, and intuitive UI
+
+🛠️ Getting Started
+Prerequisites
+Node.js & npm
+
+TMDB API key (Get it here)
+
+Appwrite server setup (Docs)
+
+Installation
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/react-movie-search-demo.git
+cd react-movie-search-demo
+npm install
+Create a .env file at the root with:
+
+ini
+Copy
+Edit
+REACT_APP_TMDB_API_KEY=your_tmdb_api_key
+REACT_APP_APPWRITE_ENDPOINT=your_appwrite_endpoint
+REACT_APP_APPWRITE_PROJECT=your_appwrite_project_id
+Run the app:
+
+bash
+Copy
+Edit
+npm start
+Open your browser at http://localhost:3000
+
+📂 Project Structure
+bash
+Copy
+Edit
+/src
+  /components    # Reusable UI components
+  /pages         # Different app views/pages
+  /services      # TMDB & Appwrite API handlers
+  /utils         # Helper functions
+  App.js         # Main app component
+💻 Technologies
+React.js
+
+TMDB API
+
+Appwrite (Auth & Database)
+
+Axios (HTTP requests)
+
+React Router
+
+CSS Modules / Styled Components
+
+🚀 Future Plans
+Add user reviews & ratings
+
+Advanced filters (genres, year, ratings)
+
+Movie trailers & galleries
+
+UI animations & transitions
+
+Deployment with CI/CD pipelines
